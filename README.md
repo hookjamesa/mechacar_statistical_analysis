@@ -4,7 +4,7 @@
 
 After an analysis of the provided data, the following variables were found to be statistically significant for determining the linear regression of mpg:
 
-[Image 1](Link)
+[MPG](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/mpg.PNG)
 
 * Vehicle_Length and
 * Ground_Clearance.
@@ -15,8 +15,8 @@ With both coefficients being positive and consistent in direction, the author co
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Current manufacturing data shows that all cars in total meet this requirement, however lots from manufacturing lot 3 independently do not. The author suggests that manufacturing lot 3 is investigated to see what manufacturing methods fell out of spec and why.
 
-[Image 2](Link)
-[Image 3](Link)
+[Total Summary](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/total_summary.PNG)
+[Lot Summary](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/lot_summary.PNG)
 
 ## T-Tests on Suspension Coils
 
@@ -29,10 +29,10 @@ Meanwhile, comparing the means of suspension coils against the 1500 psi standard
 
 These results suggest to me that the manufacturing line must be investigated and tuned to eliminate variation by non-random elements.
 
-[Image 4](Link)
-[Image 5](Link)
-[Image 6](Link)
-[Image 7](Link)
+[Total T-test](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/total_ttest.PNG)
+[Lot 1 T-test](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/lot1_ttest.PNG)
+[Lot 2 T-test](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/lot2_ttest.PNG)
+[Lot 3 T-test](https://raw.githubusercontent.com/hookjamesa/mechacar_statistical_analysis/main/Resources/lot3_ttest.PNG)
 
 ## Study Design: MechaCar vs Competition
 
