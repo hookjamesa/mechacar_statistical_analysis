@@ -20,3 +20,20 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
+Meanwhile, comparing the means of suspension coils against the 1500 psi standard, student t-tests showed the following:
+
+* Overall (p = 0.06028): The t-test conducted on all components showed that it is likely there is variance beyond statistical chance between components.
+* Lot 1 (p = 1): The t-test conducted on Lot 1 suggests that no component varies except by random chance.
+* Lot 2 (p = 0.6072): The t-test conducted on Lot 2 suggests that there is some chance that a component may vary other than by random chance.
+* Lot 3 (p = 0.04168): The t-test conducted on Lot 3 suggests that there is a significant probably there is variation other than by random chance.
+
+These results suggest to me that the manufacturing line must be investigated and tuned to eliminate variation by non-random elements.
+
+[Image 4](Link)
+[Image 5](Link)
+[Image 6](Link)
+[Image 7](Link)
+
+## Study Design: MechaCar vs Competition
+
+Those looking to purchase new vehicles often consider the cost of the vehicle and the mileage, as gas prices continue to rise from increased demand. In understanding how our new design compares against the competition, we can use the competitions' previous years' mileage data to show where our vehicle lands, with a null hypothesis that our vehicle is equivalent to our competitions' previous model. I recommend that we use an ANOVA test to determine how our vehicle compares to others' from last year, as we would otherwise have to group all of our competitions' models together for t-tests, which does not provide an accurate portrayal of our product.
